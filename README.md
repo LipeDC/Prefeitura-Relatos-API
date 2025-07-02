@@ -9,13 +9,13 @@ API REST desenvolvida em Java com Spring Boot para o gerenciamento de relatos de
 
 - Cadastro de usuários (com roles de USUARIO e ADMIN)
 - Registro de relatos vinculados a usuários
-- Listagem, atualização (PUT) e exclusão (DELETE) de relatos
+- Criação(POST), Listagem(GET), atualização (PUT) e exclusão (DELETE) de relatos
 - Validação básica de dados com DTOs e Bean Validation
 - Relacionamento entre usuários e relatos (ManyToOne)
 
 ## Tecnologias utilizadas
 
-- Java 17
+- Java
 - Spring Boot
 - Spring Data JPA
 - Hibernate
